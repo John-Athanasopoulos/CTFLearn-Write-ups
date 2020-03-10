@@ -1,0 +1,7 @@
+The adventures of Boris Ivanov. Part 1 - Writeup
+
+First I download the image and try to binwalk it to see if it contains other files. It does not..
+I also try to string it to see if there is any information hidden there, but no luck. I see however that this file has been edited with GIMP.
+So I download GIMP with "apt install gimp" and then open the file with it.
+
+I see that in the bottom of the file there is a spectrogram which probably holds the flag. In order to acces it, I make a duplicate of the first image and change the oppacity to difference. After, I select the Move Tool (M) and press the right and left keys until I find the flag which is flag{d0nt_m3s5_w1th_th3_KGB}.
