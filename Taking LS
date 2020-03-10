@@ -1,0 +1,5 @@
+Taking LS - Writeup
+
+We download the .zip file and extract its components. We then open the txt file containing the password which is "Im the flag".
+We then proceed to open the pdf with the name The Flag.pdf
+The pdf file is locked and the password is the one we have found a moment before. So we unock the file and find the flag which is ABCTF{T3Rm1n4l_is_C00l}.

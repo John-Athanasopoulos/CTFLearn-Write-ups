@@ -1,0 +1,4 @@
+Git is Good - Writeup
+
+We download the .zip file and extract it. We open the file containing the flag and we see that is is redacted (flag{REDACTED}).
+We then understand we should use the git commands to revert the changes done on the flag. We open the terminal, change to the directory we have the flag file in and then write "git log". To revert to the previous commit, we use "git revert [commit SHA hash]". We, lastly, go and open the reverted file and find our flag, which is: flag{protect_your_git}.

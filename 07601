@@ -1,0 +1,6 @@
+07601 - Writeup
+
+By stringing the donwloaded image, I find some text about some hidden files in the image and a text saying: x[What kind of code is 07601?]. We also find a fake flag: ABCTF{fooled_ya_dustin}
+After stringing the image, we binwalk it and find a bunch of hidden files. So we extract them to analyze them.
+We change the directory to Secret Stuff.../Don't open this... and string the image.
+So, we find the flag: ABCTF{Du$t1nS_D0jo}.

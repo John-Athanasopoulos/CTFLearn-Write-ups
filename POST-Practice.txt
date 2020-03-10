@@ -1,0 +1,18 @@
+We open the website given by CTFLearn which currently is http://165.227.106.113/post.php
+
+>We first see that it is not an actual website and rather just some plain text displayed, saying it needs information to be sent to the given url via POST-request.
+>Going into the Inspector (Ctrl+Shift+I or Q), and navigating to the Inspector field, opening "body" we can see an HTML comment giving some credentials to us [username=admin|password=71urlkufpsdnlkadsf].
+OR
+The same thing will happen if we go to a website that makes HTTP Requests and make a GET-request to http://165.227.106.113/post.php.
+>We, lastly, need to make a POST-request with the given credentials to the defaced web page, as we have been requested to do. To do this, we enter the following code to the code field:
+
+POST / HTTP/2.0
+Host: http://165.227.106.113/post.php
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 13
+username=admin&password=71urlkufpsdnlkadsf
+
+This makes a POST-request to the Host (http://165.227.106.113/post.php) and assigns username to "admin" and password to "71urlkufpsdnlkadsf" in the php form of the site.
+>We are now given the flag which is: flag{p0st_d4t4_4ll_d4y}
+
+Congrats! You finished POST-Pracice!
