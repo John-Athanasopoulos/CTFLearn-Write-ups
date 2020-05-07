@@ -4,6 +4,8 @@ Hello and welcome to yet another write up :)
 
 **Tools Used:**
 
+dCode online decoding tool
+
 PimEyes online face recognition tool
 
 <hr>
@@ -58,7 +60,7 @@ Thus, if we search for:
 
 We will be given the option of **Ook! Programming Language**.
 
-Thus, if we decode the text, we will be given the following link (patience, it takes some time..):
+Thus, if we decode the text (tool: https://www.dcode.fr/ook-language), we will be given the following link (patience, it takes some time..):
 http://www.epuzzle.info/puzzlegraj5.php?prefs=3&obrazek=214713&szer=936&wys=525
 
 If we follow the link and play the puzzle, we will be given the following puzzle:
@@ -88,5 +90,7 @@ We get multiple results, among which there is the following picture.
 
 So, the person (and our flag) is Grace Hopper!
 
-<p style="text-align:center;"><b>FLAG: grace hopper</b></p>
+-------------------
+FLAG: grace hopper
+-------------------
 
